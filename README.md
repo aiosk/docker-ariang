@@ -11,5 +11,5 @@ docker run \
     -e TZ=Europe/London \
     -p 80:80 \
     --restart unless-stopped \
-    my-ariang
+    ghcr.io/aiosk/ariang
 ```
