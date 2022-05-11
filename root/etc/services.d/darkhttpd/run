@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv bash
 
 exec \
-    s6-setuidgid abc darkhttpd /app --no-server-id
+    s6-setuidgid abc darkhttpd /app --port 80 --no-server-id
