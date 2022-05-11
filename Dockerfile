@@ -12,4 +12,4 @@ COPY root/ /
 COPY --from=builder /tmp/index.html /app/index.html
 
 RUN apk add --no-cache darkhttpd
-EXPOSE 8080
+EXPOSE 80
